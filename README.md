@@ -7,7 +7,7 @@ STEP-1 Load the pre-trained YOLOv4 network (.weights and .cfg) using cv2.dnn.rea
 
 STEP-2 Read class labels (COCO dataset) from the coco.names file.
 
-STEP-3 Get the output layer names from the YOLO network using getLayerNames() and getUnconnectedOutLayers().
+STEP-3 Get the output layer names from the YOLO network using getLayerNames() and getUnconnectedOutLayers(). 
 
 STEP-4 Start webcam video capture using cv2.VideoCapture(0).
 
